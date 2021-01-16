@@ -1,0 +1,32 @@
+       h1 {
+           color:rgb(28, 25, 201);
+                      font-size: 30px;
+
+       }
+       h2 {
+        border-bottom: 10px solid chartreuse;
+        margin-left: 80px;
+        font-style: italic;
+        background-color:aqua;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+
+       .center {
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+           width: 50%
+       }
+
+
+       }
+       h3{
+           margin-left: 50px;
+           font-style: italic;
+
+       }
+       li{
+        margin-left: 120px;
+       }

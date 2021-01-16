@@ -1,0 +1,109 @@
+/*Global*/
+*{
+margin: 0;
+}
+body{
+    background-color: rgb(236, 222, 222);
+    font-family: 'Roboto', sans-serif;
+  }
+h2,h3{
+    text-align: center;
+}
+h3{
+  font-size: 30px;
+  font-weight: 300;  
+  color: blue;
+  margin:40px 0 40px 0;
+}
+p{
+    line-height:2;
+}
+/* nav */
+nav{
+    background-color: rgb(42, 110, 211);
+    padding: 10px;
+    display:flex;
+    justify-content:space-between;
+}
+nav a{
+  color:black;
+  font-size: 18px;
+  text-decoration:none;
+  font-weight:700;
+}
+/* header */
+header{
+  height:400px;
+  background-image:url(../hero.jpg);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+.btn{
+  background-color:cadetblue;
+  color:whitesmoke;
+  padding:8px;
+  margin-top:10px;
+  font-weight:700;
+  text-decoration:none;
+  text-transform:uppercase;
+  border-radius:5px;
+  font-size:18px;
+}
+/* services section */
+.container{
+  background-color:white;
+  max-width: 1200px;
+  padding:30px;
+  border-radius:10px;
+  margin-top:15px;
+  margin-bottom:30px;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.icon-container{
+     background-color: yellow;
+     width: 100px;
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 50%;
+     }
+     .icon-container i{
+       font-size: 24px;
+            }
+    .flex-container{
+      display:flex;
+      justify-content: space-between;
+          }
+          .service-box{
+            display:flex;
+            justify-content:center;
+            padding:50px;
+            flex-direction: column;
+            align-items: center;
+
+          }
+          form{
+            background-color: rgb(22, 60, 231);
+            color:white;
+            max-width: 800px;
+            margin:0 auto;
+            padding: 20px;
+            border-radius: 10px;
+          }
+          input{
+            width:70%;
+            height:25px;
+            margin-bottom:20px;
+            font-size:20px;
+            border:none;
+            
+          }
+          label{
+            font-size:20px;
+
+          }
